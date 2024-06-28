@@ -1,6 +1,6 @@
 # cloud-dl
 
-Please refer to the original GIT for acknowledgments!
+Please refer to the [original GIT[(https://github.com/cghdev/cloud-dl) for acknowledgments!
 
 Bash script to manage files on owncloud via webdav. cloud-dl allows you to list, upload, download, delete, move, create and share files.
 
