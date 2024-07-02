@@ -35,3 +35,12 @@ Options:
 	 -h/--help                       Show this help
 # version: 1.7.2.1
 ```
+
+**Dependencies**
+
+* on mac (M2 with OS Sonoma 14.5), numfmt was missing, it was added using macport with:
+
+```
+sudo port install coreutils-uutils
+sudo ln -s /opt/local/bin/uu-numfmt /usr/local/bin/numfmt
+```
