@@ -38,7 +38,7 @@ Options:
 
 **Dependencies**
 
-* on mac (M2 with OS Sonoma 14.5), numfmt was missing, it was added using macport with:
+* on mac (M2 with OS Sonoma 14.5), **numfmt** was missing, it was added using macport with:
 
 ```
 sudo port install coreutils-uutils
