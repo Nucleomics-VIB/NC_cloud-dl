@@ -1,22 +1,24 @@
 #!/bin/bash
 
-version="1.7.2.2"
+version="1.7.3"
 
+# source: https://github.com/Nucleomics-VIB/NC_cloud-dl
+# forked and edited from: https://github.com/cghdev/cloud-dl
 # requires:
 # GNU coreutils (basename, date, numfmt)
 # GNU (curl, grep, sed, awk)
 # util-linux (column)
 # mailit.sh to send mail (depends on sendmail installed and running)
-#   get it from https://github.com/Nucleomics-VIB/admin-tools/blob/master/mailit.sh
-
+# one-time initialize .cloudconf with 'cloud-dl --configure'
+# SP&NC 2024-07-02 version 1.7.3 
 
 ############## editable settings ##################################################
 
 # default expiration in X days
-default_expireInDays=7; # normal defaults is 7days which is a bit short for us
+default_expireInDays=30; # normal defaults is 7days which is a bit short for us
 
 # send a mail with info to
-maildest="stephane.plaisance@gmail.com"
+maildest="user@mail.com"
 
 ############## do not edit below this line ########################################
 
